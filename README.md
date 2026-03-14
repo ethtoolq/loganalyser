@@ -1,29 +1,29 @@
 # Log Analyzer
 
-Log Analyzer — простой Python скрипт для анализа лог файлов.
+Log Analyzer — a simple Python script for analyzing log files.
 
-Скрипт читает файл логов и показывает небольшую статистику.
+The script reads a log file and shows a small set of statistics.
 
-## Возможности
+## Features
 
-* подсчёт всех строк
-* подсчёт ошибок (`error`)
-* подсчёт предупреждений (`warning`)
-* поиск самых частых IP адресов
+    count all lines
+    count errors (error)
+    count warnings (warning)
+    find the most frequent IP addresses
 
-## Требования
+## Requirements
 
-* Python 3
+    Python 3
 
-Дополнительные библиотеки не нужны.
+No additional libraries required.
 
-## Запуск
+## Usage
 
 ```bash
 python3 log_analyzer.py server.log
 ```
 
-## Пример вывода
+## Example output
 
 ```
 log statistics
@@ -38,16 +38,14 @@ top ip addresses
 192.168.1.5 - 12 requests
 192.168.1.8 - 7 requests
 ```
+## Purpose
 
-## Назначение
+The project is made for practice:
 
-Проект сделан для практики:
+    Python
+    CLI programs
+    working with files
+    data analysis
 
-* Python
-* CLI программ
-* работы с файлами
-* анализа данных
-
-## Лицензия
-
+## License
 MIT
